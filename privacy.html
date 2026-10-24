@@ -1,0 +1,47 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kebijakan Privasi Blackbox</title><link rel="stylesheet" href="style.css"></head><body><main>
+<nav><a href="index.html">← Blackbox</a><a href="#en">English</a></nav>
+<h1>Kebijakan Privasi Blackbox</h1>
+<p class="muted">Berlaku sejak 25 Oktober 2026</p>
+<h2>Ringkasan</h2>
+<p>Blackbox adalah aplikasi macOS yang menyimpan kredensial perangkat jaringan Anda secara lokal dan terenkripsi. Blackbox tidak memiliki server sendiri, tidak mengumpulkan analitik, dan tidak mengirim data Anda ke pihak mana pun selain, bila Anda mengaktifkannya, Google Drive milik akun Anda sendiri.</p>
+<h2>Data yang disimpan di Mac Anda</h2>
+<p>Nama host, alamat IP/URL, username, password, catatan, dan pengaturan terminal yang Anda masukkan. Semuanya disimpan dalam satu file brankas yang dienkripsi dengan AES-256-GCM. Kunci enkripsi diturunkan dari master password Anda dan tidak pernah disimpan di mana pun. Touch ID menyimpan salinan kunci di Keychain Mac Anda yang tidak ikut disinkronkan.</p>
+<h2>Data Google yang diakses</h2>
+<ul>
+<li><strong>Profil dasar</strong> (nama, alamat email, foto profil): dipakai hanya untuk menampilkan akun yang sedang aktif dan memisahkan brankas antar akun. Disimpan di Mac Anda.</li>
+<li><strong>Folder aplikasi Google Drive</strong> (<code>drive.appdata</code>): Blackbox mengunggah dan mengunduh file brankas yang sudah terenkripsi ke folder aplikasi tersembunyi di Drive Anda, agar bisa dipulihkan atau disinkronkan ke Mac lain milik Anda. Blackbox tidak dapat membaca, mengubah, atau menghapus file lain di Drive Anda.</li>
+</ul>
+<p>Google tidak dapat membaca isi brankas, karena file yang diunggah sudah terenkripsi dengan kunci yang hanya berasal dari master password Anda. Token akses Google disimpan di Keychain Mac Anda.</p>
+<h2>Berbagi data</h2>
+<p>Blackbox tidak membagikan, menjual, atau mentransfer data Anda kepada pihak ketiga. Tidak ada iklan dan tidak ada pelacakan. Penggunaan data Google oleh Blackbox tunduk pada <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, termasuk persyaratan Limited Use.</p>
+<h2>Penyimpanan dan penghapusan</h2>
+<p>Anda dapat menghapus brankas kapan saja dengan menghapus file di <code>~/Library/Application Support/Blackbox</code>. Data di Google Drive dapat dihapus dengan keluar dari akun Google di Pengaturan Blackbox lalu mencabut akses aplikasi di <a href="https://myaccount.google.com/permissions">halaman izin akun Google</a>, atau menghapus data aplikasi Blackbox dari pengaturan Google Drive.</p>
+<h2>Perubahan</h2>
+<p>Perubahan kebijakan ini akan dimuat di halaman ini dengan tanggal berlaku yang baru.</p>
+<h2>Kontak</h2>
+<p>Pertanyaan tentang privasi: <a href="mailto:aditardy@gmail.com">aditardy@gmail.com</a>.</p>
+
+<hr style="border:0;border-top:1px solid var(--border);margin:40px 0">
+<h1 id="en">Blackbox Privacy Policy</h1>
+<p class="muted">Effective 25 October 2026</p>
+<h2>Summary</h2>
+<p>Blackbox is a macOS app that stores your network device credentials locally and encrypted. Blackbox has no server of its own, collects no analytics, and sends your data nowhere except, if you enable it, the Google Drive of your own Google account.</p>
+<h2>Data stored on your Mac</h2>
+<p>Host names, IP addresses/URLs, usernames, passwords, notes, and terminal settings you enter. All of it lives in a single vault file encrypted with AES-256-GCM. The encryption key is derived from your master password and is never stored anywhere. Touch ID keeps a copy of the key in your Mac's Keychain, which is not synced.</p>
+<h2>Google data accessed</h2>
+<ul>
+<li><strong>Basic profile</strong> (name, email address, profile picture): used only to show the active account and to keep vaults separate per account. Stored on your Mac.</li>
+<li><strong>Google Drive application folder</strong> (<code>drive.appdata</code>): Blackbox uploads and downloads the already-encrypted vault file to a hidden app folder in your Drive, so it can be restored or synced to your other Macs. Blackbox cannot read, change, or delete any other file in your Drive.</li>
+</ul>
+<p>Google cannot read the vault contents, because the uploaded file is encrypted with a key that only derives from your master password. Google access tokens are stored in your Mac's Keychain.</p>
+<h2>Data sharing</h2>
+<p>Blackbox does not share, sell, or transfer your data to third parties. There are no ads and no tracking. Blackbox's use of Google user data complies with the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Retention and deletion</h2>
+<p>You can delete the vault at any time by removing the files in <code>~/Library/Application Support/Blackbox</code>. Data in Google Drive can be removed by signing out of Google in Blackbox's settings and revoking the app at your <a href="https://myaccount.google.com/permissions">Google account permissions page</a>, or by deleting Blackbox's app data from Google Drive settings.</p>
+<h2>Changes</h2>
+<p>Changes to this policy will be posted on this page with a new effective date.</p>
+<h2>Contact</h2>
+<p>Privacy questions: <a href="mailto:aditardy@gmail.com">aditardy@gmail.com</a>.</p>
+<footer>© 2026 Blackbox</footer>
+</main></body></html>
